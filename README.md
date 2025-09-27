@@ -42,8 +42,8 @@ ChillBites/
    ```bash
    git clone https://github.com/robbzinares/ChillBites.git
 2. Navigate to the project folder:
-
-cd ChillBites
+    ```bash
+   cd ChillBites
 
 
 3. Open the project in a browser:
