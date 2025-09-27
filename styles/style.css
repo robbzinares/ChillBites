@@ -1,0 +1,20 @@
+/* styles/style.css */
+
+/* Hero background */
+.hero-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('http://static.photos/food/1200x630/42?sizzling');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Food card hover effect */
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix feather icons fill for stars */
+.feather-star {
+  fill: currentColor;
+}

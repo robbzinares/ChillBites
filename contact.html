@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChillBites | Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="font-['Open_Sans'] bg-gray-50">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-[#D32F2F] text-white shadow-lg">
+    <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i data-feather="coffee" class="text-2xl text-yellow-300"></i>
+        <span class="font-['Poppins'] text-2xl font-bold">ChillBites</span>
+      </div>
+      <div class="hidden md:flex space-x-8">
+        <a href="index.html" class="hover:text-yellow-200 transition">Home</a>
+        <a href="menu.html" class="hover:text-yellow-200 transition">Menu</a>
+        <a href="about.html" class="hover:text-yellow-200 transition">About</a>
+        <a href="contact.html" class="font-semibold hover:text-yellow-200 transition">Contact</a>
+      </div>
+      <button class="md:hidden">
+        <i data-feather="menu"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <form class="space-y-4 max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+      <input type="text" placeholder="Your Name" class="w-full border px-4 py-2 rounded">
+      <input type="email" placeholder="Your Email" class="w-full border px-4 py-2 rounded">
+      <textarea placeholder="Your Message" class="w-full border px-4 py-2 rounded"></textarea>
+      <button class="bg-[#D32F2F] text-white px-6 py-2 rounded">Send</button>
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>© 2025 ChillBites</p>
+  </footer>
+
+  <script>feather.replace()</script>
+</body>
+</html>
