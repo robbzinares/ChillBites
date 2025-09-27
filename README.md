@@ -8,19 +8,33 @@ This project is developed as part of a **Web Development course milestone**.
 ## 📂 Project Structure
 
 ChillBites/
+
 │
+
 ├── index.html # Home page
+
 ├── menu.html # Menu page
+
 ├── about.html # About Us page
+
 ├── contact.html # Contact page
+
 │
+
 ├── styles/ # CSS folder
+
 │ └── style.css # Main stylesheet
+
 │
+
 ├── images/ # Folder for all images
+
 │
+
 └── scripts/ # JavaScript folder (for next milestones)
+
 └── script.js # Placeholder for interactivity
+
 
 
 ---
@@ -58,6 +72,9 @@ Right-click index.html → Open with Live Server.
 
 **Authors:**
 **GROUP 6**
+
 Roberto Gabrido II
+
 Rick Cabugnason
+
 Frances Balgos
