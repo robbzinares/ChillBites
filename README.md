@@ -73,8 +73,6 @@ Right-click index.html → Open with Live Server.
 **Authors:**
 **GROUP 6**
 
-Roberto Gabrido II
-
-Rick Cabugnason
-
-Frances Balgos
+-Roberto Gabrido II
+-Rick Cabugnason
+-Frances Balgos
